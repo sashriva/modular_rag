@@ -1,0 +1,23 @@
+[
+  {
+    "id": "eval_001",
+    "query": "How many paid vacation days do employees receive each year?",
+    "ground_truth": "Full-time employees receive 20 paid vacation days per calendar year.",
+    "relevant_sources": ["employee_handbook.md"],
+    "expected_answer_contains": ["20", "vacation"]
+  },
+  {
+    "id": "eval_002",
+    "query": "How many business days do refunds usually take?",
+    "ground_truth": "Approved refunds are returned to the original payment method within 7 business days.",
+    "relevant_sources": ["refund_policy.md"],
+    "expected_answer_contains": ["7 business days", "refund"]
+  },
+  {
+    "id": "eval_003",
+    "query": "How quickly must security incidents be reported?",
+    "ground_truth": "Security incidents must be reported to the security team within 1 hour of discovery.",
+    "relevant_sources": ["security_policy.md"],
+    "expected_answer_contains": ["1 hour", "security team"]
+  }
+]
